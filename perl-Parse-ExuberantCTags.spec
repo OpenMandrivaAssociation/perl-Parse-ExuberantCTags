@@ -1,5 +1,5 @@
 %define upstream_name    Parse-ExuberantCTags
-%define upstream_version 1.00
+%define upstream_version 1.01
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
