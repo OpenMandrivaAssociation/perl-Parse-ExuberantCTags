@@ -1,9 +1,9 @@
 %define upstream_name    Parse-ExuberantCTags
-%define upstream_version 1.01
+%define upstream_version 1.02
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Efficiently parse exuberant ctags files
 License:    GPL+ or Artistic
