@@ -61,3 +61,34 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.20.0-2
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Thu Nov 11 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.20.0-1mdv2011.0
++ Revision: 595980
+- update to new version 1.02
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 1.10.0-3mdv2011.0
++ Revision: 556069
+- rebuild for perl 5.12
+
+* Tue Jul 13 2010 Jérôme Quelin <jquelin@mandriva.org> 1.10.0-2mdv2011.0
++ Revision: 552002
+- rebuild
+
+* Wed Jul 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.10.0-1mdv2010.0
++ Revision: 391188
+- update to new version 1.01
+
+* Thu Jun 25 2009 Jérôme Quelin <jquelin@mandriva.org> 1.0.0-1mdv2010.0
++ Revision: 388912
+- import perl-Parse-ExuberantCTags
+
+
+* Thu Jun 25 2009 cpan2dist 1.00-1mdv
+- initial mdv release, generated with cpan2dist
+
